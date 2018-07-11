@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="43.858236">
+<testcase classname="Countdown Timer Feature" name="Test Countdown Timer Scenario" time="43.858236">
+<system-out><![CDATA[Given user is already on Countdown Timer Page...............................passed
+When title of login page is E.gg Timer......................................passed
+Then user enters "25 seconds"...............................................passed
+Then user clicks on Go button...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

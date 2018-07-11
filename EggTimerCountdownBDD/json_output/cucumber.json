@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Without examples keyword"
+          }
+        ],
+        "line": 4,
+        "name": "Test Countdown Timer Scenario",
+        "description": "",
+        "id": "countdown-timer-feature;test-countdown-timer-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13982330527,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on Countdown Timer Page",
+            "match": {
+              "location": "countDownTimerStepDefinitions.user_is_already_on_Countdown_Timer_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19317823,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is E.gg Timer",
+            "match": {
+              "location": "countDownTimerStepDefinitions.title_of_login_page_is_E_gg_Timer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 302911042,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"25 seconds\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25 seconds",
+                  "offset": 13
+                }
+              ],
+              "location": "countDownTimerStepDefinitions.user_enters(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29553676329,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Go button",
+            "match": {
+              "location": "countDownTimerStepDefinitions.user_clicks_on_Go_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Countdown Timer Feature",
+    "description": "",
+    "id": "countdown-timer-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Pavan/workspace/EggTimerCountdownBDD/src/main/java/Features/countdownTimer.feature"
+  }
+]
