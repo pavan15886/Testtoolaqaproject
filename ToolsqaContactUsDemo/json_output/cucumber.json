@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Enter the data in Contact Us Form",
+        "description": "",
+        "id": "toolsqa-contact-us-feature;enter-the-data-in-contact-us-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12658228024,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "ToolsQaContactUsPageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 372903831,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate Toolsqa home page title",
+            "match": {
+              "location": "ToolsQaContactUsPageSteps.validate_Toolsqa_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5475231383,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on About link",
+            "match": {
+              "location": "ToolsQaContactUsPageSteps.user_clicks_on_About_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5011858679,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate Contact Us page title",
+            "match": {
+              "location": "ToolsQaContactUsPageSteps.validate_Contact_Us_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2813663550,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the details in Contact Us Page",
+            "match": {
+              "location": "ToolsQaContactUsPageSteps.user_enters_the_details_in_Contact_Us_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 951421907,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "ToolsQaContactUsPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ToolsQA Contact Us Feature",
+    "description": "",
+    "id": "toolsqa-contact-us-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Pavan/workspace/ToolsqaContactUsDemo/src/main/java/com/toolsqa/features/toolsqaContactUs.feature"
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.283307">
+<testcase classname="ToolsQA Contact Us Feature" name="Enter the data in Contact Us Form" time="27.283307">
+<system-out><![CDATA[Given user opens browser....................................................passed
+Then validate Toolsqa home page title.......................................passed
+Then user clicks on About link..............................................passed
+Then validate Contact Us page title.........................................passed
+Then user enters the details in Contact Us Page.............................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
